@@ -1,0 +1,114 @@
+SERVICES variable is ignored if EAGER_SERVICE_LOADING=0.
+2023-03-28T13:55:44.034  WARN --- [  MainThread] localstack.deprecations    : DEFAULT_REGION is deprecated (since 0.12.7) and will be removed in upcoming releases of LocalStack! LocalStack now has full multi-region support. Please remove this environment variable.
+2023-03-28T13:55:44.036  WARN --- [  MainThread] localstack.deprecations    : DATA_DIR is deprecated (since 1.0.0) and will be removed in upcoming releases of LocalStack! Please use PERSISTENCE instead. The state will be stored in your LocalStack volume in the state/ directory.
+2023-03-28T13:55:44.036  WARN --- [  MainThread] localstack.deprecations    : HOST_TMP_FOLDER is deprecated (since 1.0.0) and will be removed in upcoming releases of LocalStack! Please remove this environment variable.
+2023-03-28T13:55:46.377  WARN --- [-functhread5] hypercorn.error            : ASGI Framework Lifespan error, continuing without Lifespan support
+2023-03-28T13:55:46.377  WARN --- [-functhread5] hypercorn.error            : ASGI Framework Lifespan error, continuing without Lifespan support
+2023-03-28T13:55:46.383  INFO --- [-functhread5] hypercorn.error            : Running on https://0.0.0.0:4566 (CTRL + C to quit)
+2023-03-28T13:55:46.383  INFO --- [-functhread5] hypercorn.error            : Running on https://0.0.0.0:4566 (CTRL + C to quit)
+2023-03-28T13:55:46.412  INFO --- [  MainThread] localstack.utils.bootstrap : Execution of "start_runtime_components" took 2107.10ms
+2023-03-28T13:56:51.513  INFO --- [   asgi_gw_1] localstack.request.http    : OPTIONS /_localstack/stackinfo => 204
+2023-03-28T13:56:51.520  WARN --- [   asgi_gw_0] l.aws.handlers.internal    : Unable to find resource handler for path: /_localstack/stackinfo
+2023-03-28T13:56:51.525  INFO --- [   asgi_gw_0] localstack.request.http    : GET /_localstack/stackinfo => 404
+2023-03-28T13:56:56.896  INFO --- [   asgi_gw_0] localstack.request.http    : OPTIONS /_localstack/stackinfo => 204
+2023-03-28T13:56:56.902  WARN --- [   asgi_gw_0] l.aws.handlers.internal    : Unable to find resource handler for path: /_localstack/stackinfo
+2023-03-28T13:56:56.902  INFO --- [   asgi_gw_0] localstack.request.http    : GET /_localstack/stackinfo => 404
+2023-03-28T13:57:01.561  INFO --- [   asgi_gw_1] localstack.request.http    : OPTIONS / => 204
+2023-03-28T13:57:01.819  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.ListQueues => 200
+2023-03-28T13:57:30.533  INFO --- [   asgi_gw_0] localstack.request.http    : OPTIONS / => 204
+2023-03-28T13:57:30.543  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS sqs.CreateQueue => 200
+2023-03-28T13:57:30.646  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.ListQueues => 200
+2023-03-28T13:57:30.718  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS sqs.GetQueueAttributes => 200
+2023-03-28T14:44:56.555  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.GetQueueUrl => 400 (AWS.SimpleQueueService.NonExistentQueue)
+2023-03-28T14:47:24.331  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.GetQueueUrl => 400 (AWS.SimpleQueueService.NonExistentQueue)
+2023-03-28T14:49:18.401  INFO --- [   asgi_gw_1] localstack.request.http    : OPTIONS / => 204
+2023-03-28T14:49:18.410  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.GetQueueUrl => 200
+2023-03-28T14:49:18.434  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS sqs.GetQueueAttributes => 200
+2023-03-28T14:49:23.477  INFO --- [   asgi_gw_0] localstack.request.http    : OPTIONS / => 204
+2023-03-28T14:49:23.494  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS sqs.GetQueueAttributes => 200
+2023-03-28T14:49:29.029  INFO --- [   asgi_gw_1] localstack.request.http    : OPTIONS / => 204
+2023-03-28T14:49:29.041  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.ListQueues => 200
+2023-03-28T14:49:29.075  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS sqs.GetQueueAttributes => 200
+2023-03-28T14:49:43.574  INFO --- [   asgi_gw_1] localstack.request.http    : OPTIONS / => 204
+2023-03-28T14:49:43.582  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.GetQueueUrl => 200
+2023-03-28T14:49:43.605  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS sqs.GetQueueAttributes => 200
+2023-03-28T14:49:50.261  INFO --- [   asgi_gw_1] localstack.request.http    : OPTIONS / => 204
+2023-03-28T14:49:50.267  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.GetQueueAttributes => 200
+2023-03-28T14:51:01.561  INFO --- [   asgi_gw_1] localstack.request.http    : OPTIONS /_localstack/stackinfo => 204
+2023-03-28T14:51:01.569  WARN --- [   asgi_gw_0] l.aws.handlers.internal    : Unable to find resource handler for path: /_localstack/stackinfo
+2023-03-28T14:51:01.574  INFO --- [   asgi_gw_0] localstack.request.http    : GET /_localstack/stackinfo => 404
+2023-03-28T14:51:06.362  INFO --- [   asgi_gw_0] localstack.request.http    : OPTIONS / => 204
+2023-03-28T14:51:06.373  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS sqs.ListQueues => 200
+2023-03-28T14:51:06.444  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.GetQueueAttributes => 200
+2023-03-28T14:51:35.106  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.GetQueueUrl => 400 (AWS.SimpleQueueService.NonExistentQueue)
+2023-03-28T14:52:36.687  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.GetQueueUrl => 400 (AWS.SimpleQueueService.NonExistentQueue)
+2023-03-28T14:53:45.336  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.GetQueueUrl => 400 (AWS.SimpleQueueService.NonExistentQueue)
+2023-03-28T14:54:34.077  INFO --- [   asgi_gw_1] localstack.request.http    : OPTIONS / => 204
+2023-03-28T14:54:34.087  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.ListQueues => 200
+2023-03-28T14:54:50.072  INFO --- [   asgi_gw_0] localstack.request.http    : OPTIONS / => 204
+2023-03-28T14:54:50.089  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS sqs.CreateQueue => 200
+2023-03-28T14:54:50.170  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.ListQueues => 200
+2023-03-28T14:54:50.214  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS sqs.GetQueueAttributes => 200
+2023-03-28T14:55:15.794  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS sqs.GetQueueUrl => 200
+2023-03-28T14:55:16.019  INFO --- [   asgi_gw_0] localstack.request.http    : POST /000000000000/notificacao => 200
+2023-03-28T14:55:29.785  INFO --- [   asgi_gw_0] localstack.request.http    : OPTIONS / => 204
+2023-03-28T14:55:29.792  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS sqs.ListQueues => 200
+2023-03-28T14:55:29.827  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.GetQueueAttributes => 200
+2023-03-28T14:55:31.653  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS sqs.GetQueueUrl => 200
+2023-03-28T14:55:31.699  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.GetQueueAttributes => 200
+2023-03-28T14:55:38.923  INFO --- [   asgi_gw_0] localstack.request.http    : OPTIONS / => 204
+2023-03-28T14:55:38.933  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS sqs.ReceiveMessage => 200
+2023-03-28T14:55:43.164  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS sqs.ReceiveMessage => 200
+2023-03-28T15:01:34.946  INFO --- [   asgi_gw_0] localstack.request.http    : OPTIONS / => 204
+2023-03-28T15:01:34.955  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS sqs.ReceiveMessage => 200
+2023-03-28T15:01:39.973  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.GetQueueUrl => 400 (AWS.SimpleQueueService.NonExistentQueue)
+2023-03-28T15:08:53.118  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.GetQueueUrl => 200
+2023-03-28T15:08:53.609  INFO --- [   asgi_gw_2] localstack.request.http    : POST /000000000000/notificacao => 200
+2023-03-28T15:08:58.696  INFO --- [   asgi_gw_2] localstack.request.http    : OPTIONS / => 204
+2023-03-28T15:08:58.706  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.ReceiveMessage => 200
+2023-03-28T15:11:26.881  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.GetQueueUrl => 200
+2023-03-28T15:11:27.036  INFO --- [   asgi_gw_2] localstack.request.http    : POST /000000000000/notificacao => 200
+2023-03-28T15:11:33.169  INFO --- [   asgi_gw_1] localstack.request.http    : OPTIONS / => 204
+2023-03-28T15:11:33.333  INFO --- [   asgi_gw_2] localstack.request.aws     : AWS sqs.ReceiveMessage => 200
+2023-03-28T15:29:18.803  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS sqs.GetQueueUrl => 200
+2023-03-28T15:29:18.986  INFO --- [   asgi_gw_2] localstack.request.http    : POST /000000000000/notificacao => 200
+2023-03-28T15:45:20.375  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.GetQueueUrl => 200
+2023-03-28T15:45:21.034  INFO --- [   asgi_gw_3] localstack.request.http    : POST /000000000000/notificacao => 200
+2023-03-28T15:45:47.622  INFO --- [   asgi_gw_0] localstack.request.http    : OPTIONS / => 204
+2023-03-28T15:45:47.634  INFO --- [   asgi_gw_3] localstack.request.aws     : AWS sqs.ReceiveMessage => 200
+2023-03-28T18:33:15.283  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.GetQueueUrl => 200
+2023-03-28T18:33:15.572  INFO --- [   asgi_gw_3] localstack.request.http    : POST /000000000000/notificacao => 200
+2023-03-28T18:33:37.292  INFO --- [   asgi_gw_3] localstack.request.http    : OPTIONS / => 204
+2023-03-28T18:33:37.301  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.GetQueueUrl => 200
+2023-03-28T18:33:37.339  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS sqs.ReceiveMessage => 200
+2023-03-28T18:33:40.236  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.ReceiveMessage => 200
+2023-03-28T18:33:42.456  INFO --- [   asgi_gw_2] localstack.request.http    : OPTIONS / => 204
+2023-03-28T18:33:42.473  INFO --- [   asgi_gw_3] localstack.request.aws     : AWS sqs.ReceiveMessage => 200
+2023-03-28T18:37:41.322  INFO --- [   asgi_gw_3] localstack.request.aws     : AWS sqs.GetQueueUrl => 200
+2023-03-28T18:37:41.658  INFO --- [   asgi_gw_0] localstack.request.http    : POST /000000000000/notificacao => 200
+2023-03-28T18:38:21.227  INFO --- [   asgi_gw_1] localstack.request.http    : OPTIONS / => 204
+2023-03-28T18:38:21.247  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.ReceiveMessage => 200
+2023-03-28T18:45:49.666  INFO --- [   asgi_gw_3] localstack.request.aws     : AWS sqs.GetQueueUrl => 200
+2023-03-28T18:45:49.832  INFO --- [   asgi_gw_2] localstack.request.http    : POST /000000000000/notificacao => 200
+2023-03-28T18:45:56.929  INFO --- [   asgi_gw_2] localstack.request.http    : POST /000000000000/notificacao => 200
+2023-03-28T18:45:57.748  INFO --- [   asgi_gw_2] localstack.request.http    : POST /000000000000/notificacao => 200
+2023-03-28T18:45:58.494  INFO --- [   asgi_gw_1] localstack.request.http    : POST /000000000000/notificacao => 200
+2023-03-28T18:45:59.189  INFO --- [   asgi_gw_1] localstack.request.http    : POST /000000000000/notificacao => 200
+2023-03-28T18:45:59.826  INFO --- [   asgi_gw_3] localstack.request.http    : POST /000000000000/notificacao => 200
+2023-03-28T18:47:08.667  INFO --- [   asgi_gw_2] localstack.request.http    : OPTIONS / => 204
+2023-03-28T18:47:08.688  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS sqs.ReceiveMessage => 200
+2023-03-28T18:48:44.330  INFO --- [   asgi_gw_2] localstack.request.http    : OPTIONS / => 204
+2023-03-28T18:48:44.338  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.GetQueueAttributes => 200
+2023-03-28T18:49:29.890  INFO --- [   asgi_gw_2] localstack.request.http    : OPTIONS / => 204
+2023-03-28T18:49:29.898  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.ListQueues => 200
+2023-03-28T18:49:29.925  INFO --- [   asgi_gw_3] localstack.request.aws     : AWS sqs.GetQueueAttributes => 200
+2023-03-28T18:49:35.876  INFO --- [   asgi_gw_2] localstack.request.http    : OPTIONS / => 204
+2023-03-28T18:49:35.890  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.GetQueueAttributes => 200
+2023-03-28T18:49:59.079  INFO --- [   asgi_gw_2] localstack.request.http    : OPTIONS / => 204
+2023-03-28T18:49:59.088  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.GetQueueAttributes => 200
+2023-03-29T01:45:55.997  INFO --- [   asgi_gw_2] localstack.request.aws     : AWS sqs.GetQueueUrl => 200
+2023-03-29T01:45:56.186  INFO --- [   asgi_gw_0] localstack.request.http    : POST /000000000000/notificacao => 200
+2023-03-29T01:50:06.903  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS sqs.GetQueueUrl => 200
+2023-03-29T01:50:07.078  INFO --- [   asgi_gw_1] localstack.request.http    : POST /000000000000/notificacao => 200
+2023-03-29T01:52:41.848  INFO --- [   asgi_gw_3] localstack.request.aws     : AWS sqs.GetQueueUrl => 200
+2023-03-29T01:52:42.033  INFO --- [   asgi_gw_1] localstack.request.http    : POST /000000000000/notificacao => 200
